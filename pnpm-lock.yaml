@@ -27,10 +27,10 @@ importers:
         version: 7.27.1(@babel/core@7.27.1)
       '@conversiondigital/headless-basics-components':
         specifier: https://github.com/Conversion-Digital/headless-basics-components.git#feature/Ben
-        version: https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/7c5e2a6c2b5d7167868efec318f068e092613d91(@emotion/is-prop-valid@1.2.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(@types/node@18.19.103)(babel-jest@29.7.0(@babel/core@7.27.1))(esbuild@0.25.4)(immer@10.1.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.41.0)(styled-components@6.1.18(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.2)(webpack@5.99.9(esbuild@0.25.4))(yaml@2.8.0)
+        version: https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/14c98e81db7aa60550bd69779161a329c101e6c3(@emotion/is-prop-valid@1.2.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(@types/node@18.19.103)(babel-jest@29.7.0(@babel/core@7.27.1))(esbuild@0.25.4)(immer@10.1.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.41.0)(styled-components@6.1.18(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.2)(webpack@5.99.9(esbuild@0.25.4))(yaml@2.8.0)
       '@conversiondigital/headless-basics-data':
         specifier: https://github.com/Conversion-Digital/headless-basics-data.git#feature/ben
-        version: https://codeload.github.com/Conversion-Digital/headless-basics-data/tar.gz/25958ad94d0aacc56deef5180f438b3cf71a6633(@emotion/is-prop-valid@1.2.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.27.1))(esbuild@0.25.4)(immer@10.1.1)(jiti@2.4.2)(lightningcss@1.30.1)(postcss@8.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.18(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.2)(webpack@5.99.9(esbuild@0.25.4))(yaml@2.8.0)
+        version: https://codeload.github.com/Conversion-Digital/headless-basics-data/tar.gz/5bb62b899c5c2021eaad3a761015326b051ee346(@emotion/is-prop-valid@1.2.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.27.1))(esbuild@0.25.4)(immer@10.1.1)(jiti@2.4.2)(lightningcss@1.30.1)(postcss@8.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.18(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.2)(webpack@5.99.9(esbuild@0.25.4))(yaml@2.8.0)
       '@fortawesome/fontawesome-svg-core':
         specifier: ^6.4.0
         version: 6.7.2
@@ -807,16 +807,16 @@ packages:
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
 
-  '@conversiondigital/headless-basics-components@https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/7c5e2a6c2b5d7167868efec318f068e092613d91':
-    resolution: {tarball: https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/7c5e2a6c2b5d7167868efec318f068e092613d91}
-    version: 1.1.0
+  '@conversiondigital/headless-basics-components@https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/14c98e81db7aa60550bd69779161a329c101e6c3':
+    resolution: {tarball: https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/14c98e81db7aa60550bd69779161a329c101e6c3}
+    version: 1.1.5
     peerDependencies:
       react: ^17.0 || ^18.0 || ^19.0
       react-dom: ^16.8 || ^17.0 || ^18.0 || ^19.0
 
-  '@conversiondigital/headless-basics-data@https://codeload.github.com/Conversion-Digital/headless-basics-data/tar.gz/25958ad94d0aacc56deef5180f438b3cf71a6633':
-    resolution: {tarball: https://codeload.github.com/Conversion-Digital/headless-basics-data/tar.gz/25958ad94d0aacc56deef5180f438b3cf71a6633}
-    version: 1.1.2
+  '@conversiondigital/headless-basics-data@https://codeload.github.com/Conversion-Digital/headless-basics-data/tar.gz/5bb62b899c5c2021eaad3a761015326b051ee346':
+    resolution: {tarball: https://codeload.github.com/Conversion-Digital/headless-basics-data/tar.gz/5bb62b899c5c2021eaad3a761015326b051ee346}
+    version: 1.1.5
     peerDependencies:
       react: ^18.0 || ^19.0
       react-dom: ^18.0 || ^19.0
@@ -8469,8 +8469,8 @@ packages:
     resolution: {integrity: sha512-zK7YHHz4ZXpW89AHXUPbQVGKI7uvkd3hzusTdotCg1UxyaVtg0zFJSTfW/Dq5f7OBBVnq6cZIaC8Ti4hb6dtCA==}
     engines: {node: '>= 14'}
 
-  zod@3.25.8:
-    resolution: {integrity: sha512-iJPWX8HoZ2VE21VrhHGU9jVo/kVDUQyqM9vF0MxDhW/fp2sAl1eVwGJgiYZdHGiMwQJImXIW80lKk0MnfDxqiQ==}
+  zod@3.25.9:
+    resolution: {integrity: sha512-ho97WAF12mhTHd6/1lBbAPJP0cWKvWra6Stl2Tw93EBsIMoHME3bhGUGBXT0AaVmIWtOB1cFh98T+wb9RClo7g==}
 
   zustand@5.0.4:
     resolution: {integrity: sha512-39VFTN5InDtMd28ZhjLyuTnlytDr9HfwO512Ai4I8ZABCoyAj4F1+sr7sD1jP/+p7k77Iko0Pb5NhgBFDCX0kQ==}
@@ -10043,7 +10043,7 @@ snapshots:
 
   '@bcoe/v8-coverage@0.2.3': {}
 
-  '@conversiondigital/headless-basics-components@https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/7c5e2a6c2b5d7167868efec318f068e092613d91(@emotion/is-prop-valid@1.2.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(@types/node@18.19.103)(babel-jest@29.7.0(@babel/core@7.27.1))(esbuild@0.25.4)(immer@10.1.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.41.0)(styled-components@6.1.18(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.2)(webpack@5.99.9(esbuild@0.25.4))(yaml@2.8.0)':
+  '@conversiondigital/headless-basics-components@https://codeload.github.com/Conversion-Digital/headless-basics-components/tar.gz/14c98e81db7aa60550bd69779161a329c101e6c3(@emotion/is-prop-valid@1.2.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(@types/node@18.19.103)(babel-jest@29.7.0(@babel/core@7.27.1))(esbuild@0.25.4)(immer@10.1.1)(jiti@2.4.2)(lightningcss@1.30.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.41.0)(styled-components@6.1.18(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.2)(webpack@5.99.9(esbuild@0.25.4))(yaml@2.8.0)':
     dependencies:
       '@babel/cli': 7.23.9(@babel/core@7.24.0)
       '@babel/core': 7.24.0
@@ -10166,7 +10166,7 @@ snapshots:
       - webpack
       - yaml
 
-  '@conversiondigital/headless-basics-data@https://codeload.github.com/Conversion-Digital/headless-basics-data/tar.gz/25958ad94d0aacc56deef5180f438b3cf71a6633(@emotion/is-prop-valid@1.2.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.27.1))(esbuild@0.25.4)(immer@10.1.1)(jiti@2.4.2)(lightningcss@1.30.1)(postcss@8.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.18(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.2)(webpack@5.99.9(esbuild@0.25.4))(yaml@2.8.0)':
+  '@conversiondigital/headless-basics-data@https://codeload.github.com/Conversion-Digital/headless-basics-data/tar.gz/5bb62b899c5c2021eaad3a761015326b051ee346(@emotion/is-prop-valid@1.2.2)(@jest/transform@29.7.0)(@jest/types@29.6.3)(babel-jest@29.7.0(@babel/core@7.27.1))(esbuild@0.25.4)(immer@10.1.1)(jiti@2.4.2)(lightningcss@1.30.1)(postcss@8.5.3)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.18(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(terser@5.39.2)(webpack@5.99.9(esbuild@0.25.4))(yaml@2.8.0)':
     dependencies:
       '@babel/cli': 7.23.9(@babel/core@7.24.0)
       '@babel/core': 7.24.0
@@ -12429,7 +12429,7 @@ snapshots:
       groq-js: 1.16.1
       json5: 2.2.3
       tsconfig-paths: 4.2.0
-      zod: 3.25.8
+      zod: 3.25.9
     transitivePeerDependencies:
       - supports-color
 
@@ -12652,15 +12652,15 @@ snapshots:
       - '@types/react'
       - supports-color
 
-  '@sanity/presentation-comlink@1.0.19(@sanity/client@7.3.0(debug@4.4.1))(@sanity/types@3.89.0(@types/react@18.3.21)(debug@4.4.1))':
+  '@sanity/presentation-comlink@1.0.19(@sanity/client@7.3.0)(@sanity/types@3.89.0(@types/react@18.3.21)(debug@4.4.1))':
     dependencies:
       '@sanity/client': 7.3.0(debug@4.4.1)
       '@sanity/comlink': 3.0.3
-      '@sanity/visual-editing-types': 1.0.18(@sanity/client@7.3.0(debug@4.4.1))(@sanity/types@3.89.0(@types/react@18.3.21)(debug@4.4.1))
+      '@sanity/visual-editing-types': 1.0.18(@sanity/client@7.3.0)(@sanity/types@3.89.0(@types/react@18.3.21)(debug@4.4.1))
     transitivePeerDependencies:
       - '@sanity/types'
 
-  '@sanity/preview-url-secret@2.1.11(@sanity/client@7.3.0(debug@4.4.1))':
+  '@sanity/preview-url-secret@2.1.11(@sanity/client@7.3.0)':
     dependencies:
       '@sanity/client': 7.3.0(debug@4.4.1)
       '@sanity/uuid': 3.0.2
@@ -12903,7 +12903,7 @@ snapshots:
       '@types/uuid': 8.3.4
       uuid: 8.3.2
 
-  '@sanity/visual-editing-types@1.0.18(@sanity/client@7.3.0(debug@4.4.1))(@sanity/types@3.89.0(@types/react@18.3.21)(debug@4.4.1))':
+  '@sanity/visual-editing-types@1.0.18(@sanity/client@7.3.0)(@sanity/types@3.89.0(@types/react@18.3.21)(debug@4.4.1))':
     dependencies:
       '@sanity/client': 7.3.0(debug@4.4.1)
     optionalDependencies:
@@ -18094,8 +18094,8 @@ snapshots:
       '@sanity/message-protocol': 0.13.2
       '@sanity/migrate': 3.89.0(@types/react@18.3.21)
       '@sanity/mutator': 3.89.0(@types/react@18.3.21)
-      '@sanity/presentation-comlink': 1.0.19(@sanity/client@7.3.0(debug@4.4.1))(@sanity/types@3.89.0(@types/react@18.3.21)(debug@4.4.1))
-      '@sanity/preview-url-secret': 2.1.11(@sanity/client@7.3.0(debug@4.4.1))
+      '@sanity/presentation-comlink': 1.0.19(@sanity/client@7.3.0)(@sanity/types@3.89.0(@types/react@18.3.21)(debug@4.4.1))
+      '@sanity/preview-url-secret': 2.1.11(@sanity/client@7.3.0)
       '@sanity/schema': 3.89.0(@types/react@18.3.21)(debug@4.4.1)
       '@sanity/sdk': 0.0.0-alpha.25(@types/react@18.3.21)(debug@4.4.1)(immer@10.1.1)(react@18.3.1)(use-sync-external-store@1.5.0(react@18.3.1))
       '@sanity/telemetry': 0.8.1(react@18.3.1)
@@ -18258,8 +18258,8 @@ snapshots:
       '@sanity/message-protocol': 0.13.2
       '@sanity/migrate': 3.89.0(@types/react@19.1.4)
       '@sanity/mutator': 3.89.0(@types/react@19.1.4)
-      '@sanity/presentation-comlink': 1.0.19(@sanity/client@7.3.0(debug@4.4.1))(@sanity/types@3.89.0(@types/react@18.3.21)(debug@4.4.1))
-      '@sanity/preview-url-secret': 2.1.11(@sanity/client@7.3.0(debug@4.4.1))
+      '@sanity/presentation-comlink': 1.0.19(@sanity/client@7.3.0)(@sanity/types@3.89.0(@types/react@18.3.21)(debug@4.4.1))
+      '@sanity/preview-url-secret': 2.1.11(@sanity/client@7.3.0)
       '@sanity/schema': 3.89.0(@types/react@19.1.4)(debug@4.4.1)
       '@sanity/sdk': 0.0.0-alpha.25(@types/react@19.1.4)(debug@4.4.1)(immer@10.1.1)(react@18.3.1)(use-sync-external-store@1.5.0(react@18.3.1))
       '@sanity/telemetry': 0.8.1(react@18.3.1)
@@ -19572,7 +19572,7 @@ snapshots:
       compress-commons: 6.0.2
       readable-stream: 4.7.0
 
-  zod@3.25.8: {}
+  zod@3.25.9: {}
 
   zustand@5.0.4(@types/react@18.3.21)(immer@10.1.1)(react@18.3.1)(use-sync-external-store@1.5.0(react@18.3.1)):
     optionalDependencies:
